@@ -8,9 +8,9 @@ This is a simple command line/node client for foaas.com.
 
 ## Usage
 
-Usage 1: `foaas message argument 1 [argument 2]`
+Usage 1: `foaas message argument1 [argument2]`
 
-Usage 2: `foaas argument 1 argument 2`
+Usage 2: `foaas argument1 argument2`
 
     foaas off :name :from
     foaas you :name :from
