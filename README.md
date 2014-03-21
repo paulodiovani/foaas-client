@@ -9,6 +9,7 @@ This is a simple command line/node client for foaas.com.
 ## Usage
 
 Usage 1: `foaas message argument 1 [argument 2]`
+
 Usage 2: `foaas argument 1 argument 2`
 
     foaas off :name :from
