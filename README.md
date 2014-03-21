@@ -4,7 +4,7 @@ This is a simple command line/node client for foaas.com.
 
 ## Install
 
-    npm install -g http://github.com/paulodiovani/foaas-client.git
+    npm install -g https://github.com/paulodiovani/foaas-client/tarball/master
 
 ## Usage
 
