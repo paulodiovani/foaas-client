@@ -31,3 +31,16 @@ Usage 2: `foaas argument1 argument2`
     foaas fascinating :from
 
 Check the [service page](http://foaas.com) for more information.
+
+### Examples
+
+```
+$ foaas life Paulo\ Diovani
+Fuck my life. - Paulo Diovani
+
+$ foaas chainsaw Chris Paulo\ Diovani 
+Fuck me gently with a chainsaw, Chris. Do I look like Mother Teresa? - Paulo Diovani
+
+$ foaas fascinating Paulo\ Diovani
+Fascinating story, in what chapter do you shut the fuck up? - Paulo Diovani
+```
