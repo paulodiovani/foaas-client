@@ -2,16 +2,10 @@
   "name": "foaas-client",
   "version": "0.0.1",
   "description": "A Node/command line client for foaas.com",
-  "homepage": "",
-  "subdomain": "",
   "author": {
     "name": "Paulo Diovani Gonçalves",
     "email": "paulo@diovani.com",
     "web": "http://blog.diovani.com"
-  },
-  "dependencies": {
-  },
-  "devDependencies": {
   },
   "repository": {
     "type": "git",
