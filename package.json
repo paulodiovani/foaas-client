@@ -13,6 +13,10 @@
   },
   "devDependencies": {
   },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/paulodiovani/foaas-client.git"
+  },
   "bin": "./client.js",
   "licenses": [
     {

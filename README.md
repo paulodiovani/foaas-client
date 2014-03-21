@@ -4,8 +4,7 @@ This is a simple command line/node client for foaas.com.
 
 ## Install
 
-    git clone [repository] foaas-client
-    npm install -g foaas-client
+    npm install -g http://github.com/paulodiovani/foaas-client.git
 
 ## Usage
 
