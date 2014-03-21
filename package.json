@@ -11,7 +11,10 @@
     "type": "git",
     "url": "http://github.com/paulodiovani/foaas-client.git"
   },
-  "bin": "./client.js",
+  "main": "./js/foaas",
+  "bin": {
+    "foaas": "./bin/foaas"  
+  },
   "licenses": [
     {
       "type": "MIT",
