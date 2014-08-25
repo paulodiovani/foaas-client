@@ -4,25 +4,14 @@
 
   http = require('http');
 
-
-  /*
-   * Test the params
-   */
-
   check_params = function() {
     var usage;
     if ((process.argv[2] == null) || (process.argv[3] == null)) {
-      usage = "Usage 1: foaas message argument 1 [argument 2] \n" + "Usage 2: foaas argument 1 argument 2 \n\n" + "foaas off :name :from \n" + "foaas you :name :from \n" + "foaas this :from \n" + "foaas that :from \n" + "foaas everything :from \n" + "foaas everyone :from \n" + "foaas donut :name :from \n" + "foaas shakespeare :name :from \n" + "foaas linus :name :from \n" + "foaas king :name :from \n" + "foaas pink :from \n" + "foaas life :from \n" + "foaas chainsaw :name :from \n" + "foaas :thing :from \n" + "foaas thanks :from \n" + "foaas flying :from \n" + "foaas fascinating :from \n";
+      usage = "Usage 1: foaas message :name [:from]\nUsage 2: foaas :name [:from]\n\nfoaas off :name :from\nfoaas you :name :from\nfoaas this :from\nfoaas that :from\nfoaas everything :from\nfoaas everyone :from\nfoaas donut :name :from\nfoaas shakespeare :name :from\nfoaas linus :name :from\nfoaas king :name :from\nfoaas pink :from\nfoaas life :from\nfoaas chainsaw :name :from\nfoaas :thing :from\nfoaas thanks :from\nfoaas flying :from\nfoaas fascinating :from\n\nCopyright © 2014 Paulo Diovani <paulo@diovani.com>\nThis work is free. You can redistribute it and/or modify it under the\nterms of the Do What The Fuck You Want To Public License, Version 2,\nas published by Sam Hocevar. See the COPYING file for more details.";
       console.info(usage);
       return process.exit(0);
     }
   };
-
-
-  /*
-   * Get the path url, based on the command line parameters
-   * @param {Array} params lista de parâmetros passados para o script
-   */
 
   get_url = function(params) {
     var p, url, _i, _len;
@@ -33,13 +22,6 @@
     }
     return url;
   };
-
-
-  /*
-   * Do a request do service_host and return the Fuck Off message
-   * @param {String} service_host where do request
-   * @return {String}
-   */
 
   fuckoff_request = function(service_host) {
     var options;
