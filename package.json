@@ -1,6 +1,6 @@
 {
   "name": "foaas-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Node command line client for foaas.com",
   "author": {
     "name": "Paulo Diovani Gonçalves",
@@ -11,6 +11,9 @@
     "type": "git",
     "url": "http://github.com/paulodiovani/foaas-client.git"
   },
+  "bugs": {
+    "url": "https://github.com/paulodiovani/foaas-client/issues"
+  },
   "main": "./js/foaas",
   "bin": {
     "foaas": "./bin/foaas"  
@@ -20,5 +23,9 @@
       "type": "WTFPL",
       "url": "http://www.wtfpl.net/"
     }
+  ],
+  "keywords": [
+    "joke",
+    "foaas"
   ]
 }
