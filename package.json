@@ -1,6 +1,6 @@
 {
   "name": "foaas-client",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A Node command line client for foaas.com",
   "author": {
     "name": "Paulo Diovani Gonçalves",
@@ -16,7 +16,7 @@
   },
   "main": "./js/foaas",
   "bin": {
-    "foaas": "./bin/foaas"  
+    "foaas": "./bin/foaas"
   },
   "licenses": [
     {
