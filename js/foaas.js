@@ -33,7 +33,10 @@
       host: service_host,
       port: 80,
       path: get_url(process.argv.slice(2)),
-      method: 'GET'
+      method: 'GET',
+      headers: {
+        'Accept': 'text/plain'
+      }
     };
     return http.request(options, function(res) {
       res.setEncoding('utf8');
